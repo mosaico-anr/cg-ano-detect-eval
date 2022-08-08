@@ -9,8 +9,8 @@ from sklearn.compose import ColumnTransformer
 from torch.utils.tensorboard import SummaryWriter
 
 from ..utils.algorithm_utils import Algorithm, PyTorchUtils, save_torch_algo
-from .data_processing import get_sub_seqs, get_train_data_loaders, data_processing_naive, data_processing_random, get_data
-from ..utils.auto_encoder_utils import AutoEncoderModel, fit_with_early_stopping, predict_test_scores
+from ..utils.data_processing import get_sub_seqs, get_train_data_loaders, data_processing_naive, data_processing_random, get_data
+from .auto_encoder_utils import AutoEncoderModel, fit_with_early_stopping, predict_test_scores
 from ..utils.evaluation_utils import performance_evaluations
 
 
