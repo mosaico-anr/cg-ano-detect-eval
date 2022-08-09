@@ -78,5 +78,5 @@ The hyper-parameters of each model used in the paper are the default parameters 
 To train an Auto-Encoder model with the default parameters, with the _mixed-datasets_ splitting strategy, with an anomaly contamination of 5%, run :
 
 ```bash
-python main.py -- ae --contamination-ratio 0.05
+python main.py --model_name ae --contamination-ratio 0.05
 ```
