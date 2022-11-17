@@ -1,3 +1,9 @@
+# Copyright (c) 2022 Orange - All rights reserved
+# 
+# Author:  Joël Roman Ky
+# This code is distributed under the terms and conditions of the MIT License (https://opensource.org/licenses/MIT)
+# 
+
 from sklearn.metrics import mean_squared_error, confusion_matrix, classification_report, roc_curve, roc_auc_score
 from sklearn.metrics import average_precision_score, precision_recall_curve
 from sklearn.metrics import plot_precision_recall_curve

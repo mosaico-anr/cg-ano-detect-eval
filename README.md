@@ -1,26 +1,25 @@
 # Assessing Unsupervised Machine Learning solutions for Anomaly Detection in Cloud Gaming Sessions
 
 This repository contains the code of the different unsupervised machine learning algorithms implemented in the paper to detect anomalies in Cloud Gaming Sessions.
+The paper was accepted and presented at the 4th International Workshop on High-Precision, Predictable and Low-Latency Networking (HiPNet 2022) colocated with the 18th International Conference on Network and Service Management (CNSM) in Thessaloniki, Greece.
+
+DOI: (TBA)
 
 The models implemented are :
-- PCA
-- Isolation Forest
-- One Class SVM
-- Auto-Encoders
-- LSTM-VAE
-
-## Disclaimer
-
-The paper is under review at the CNSM Workshop HiPNet'22. The repository is for reviewers only and will be publicly available upon paper acceptance.
+- [Isolation Forest](https://ieeexplore.ieee.org/document/4781136)
+- [One Class SVM](http://nips.djvuzone.org/djvu/nips12/0582.djvu)
+- [PCA]()
+- [Auto-Encoders]()
+- [LSTM-VAE](https://doi.org/10.1109/LRA.2018.2801475)
 
 ## Datasets
 
-The datasets can be download on [this link](https://filesender.renater.fr/?s=download&token=372ec1a6-baaf-4c7e-a183-7944bbd4bfe7).  
+The datasets can be download on [this link](https://cloud-gaming-traces.lhs.loria.fr/ANR-19-CE25-0012_stadia_cg_webrtc_metrics.tar.xz).  
 Download and unzip the file in the data folder.
 
 ```bash
 cd data/
-tar -xvf data.tar.gz .
+tar -xvf ANR-19-CE25-0012_stadia_cg_webrtc_metrics.tar.xz .
 ```
 
 ## Dependencies

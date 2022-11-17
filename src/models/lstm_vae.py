@@ -1,3 +1,9 @@
+# Copyright (c) 2022 Orange - All rights reserved
+# 
+# Author:  Joël Roman Ky
+# This code is distributed under the terms and conditions of the MIT License (https://opensource.org/licenses/MIT)
+# 
+
 import torch
 from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler, OneHotEncoder

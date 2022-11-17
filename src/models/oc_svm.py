@@ -1,3 +1,9 @@
+# Copyright (c) 2022 Orange - All rights reserved
+# 
+# Author:  Joël Roman Ky
+# This code is distributed under the terms and conditions of the MIT License (https://opensource.org/licenses/MIT)
+# 
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
