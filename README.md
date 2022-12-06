@@ -3,7 +3,7 @@
 This repository contains the code of the different unsupervised machine learning algorithms implemented in the paper to detect anomalies in Cloud Gaming Sessions.
 The paper was accepted and presented at the 4th International Workshop on High-Precision, Predictable and Low-Latency Networking (HiPNet 2022) colocated with the 18th International Conference on Network and Service Management (CNSM) in Thessaloniki, Greece.
 
-DOI: (TBA)
+DOI: [Assessing Unsupervised Machine Learning solutions for Anomaly Detection in Cloud Gaming Sessions](https://doi.org/10.23919/CNSM55787.2022.9964533)
 
 The models implemented are :
 - [Isolation Forest](https://ieeexplore.ieee.org/document/4781136)
